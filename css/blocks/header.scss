@@ -1,0 +1,39 @@
+.header {
+    position: absolute;
+    width: 100%;
+    margin-top: rem(24px);
+    z-index: 1;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #ffffff;
+}
+
+.header__wrap {
+    margin-left: rem(44px);
+    @include tablets {
+        display: none;
+    }
+}
+
+.mobile {
+    display: flex;
+    align-items: center;
+    @include tablets {
+        display: none;
+    }
+}
+
+.phone__picture {
+    width: rem(12px);
+    height: rem(11px);
+    margin-left: rem(46px);
+}
+
+.mobile__number {
+    font-size: rem(24px);
+    padding-left: rem(6px);
+}

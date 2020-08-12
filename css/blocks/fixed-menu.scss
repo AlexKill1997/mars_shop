@@ -1,0 +1,33 @@
+.fixed-menu {
+    position: fixed;
+    top: rem(216px);
+    right: rem(60px);
+    z-index: 2;
+}
+
+.fixed-menu__dot {
+    border-radius: 50%;
+    display: block;
+    width: rem(20px);
+    height: rem(20px);
+    border: rem(1px) solid transparent;
+    position: relative;
+    margin-bottom: rem(15px);
+    &--active {
+        border-color: grey;
+    }
+    &:before {
+        content: '';
+        width: rem(6px);
+        height: rem(6px);
+        position: absolute;
+        border-radius: rem(10px);
+        background-color: grey;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    &:hover {
+        border-color: grey;
+    }
+}

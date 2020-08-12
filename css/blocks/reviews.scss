@@ -1,0 +1,63 @@
+.reviews {
+    background-image: url(img/berry.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    justify-content: center;
+}
+
+.review__title {
+    text-align: center;
+    margin-bottom: rem(44px);
+}
+
+.review__box {
+    background-image: url(img/6.png);
+    background-repeat: no-repeat;
+    display: flex;
+    margin-bottom: rem(27px);
+}
+
+.review__box__title {
+    font-size: rem(30px);
+    font-weight: bold;
+    margin-bottom: rem(29px);
+}
+
+.review__picture {
+    margin-left: rem(20px);
+    width: rem(253px);
+    height: rem(259px);
+    padding: rem(45px) rem(34px);
+    box-sizing: content-box;
+}
+
+.review__message {
+    color: #666666;
+    font-size: rem(18px);
+    margin-bottom: rem(32px);
+}
+
+.review__content {
+    width: rem(433px);
+    margin-top: rem(68px);
+}
+
+.review__people {
+    display: flex;
+    justify-content: center;
+}
+
+.people__picture {
+    width: rem(66px);
+    height: rem(66px);
+    margin-right: rem(12px);
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.picture {
+    max-width: 100%;
+    display: block;
+}

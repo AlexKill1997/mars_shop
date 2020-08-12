@@ -1,0 +1,97 @@
+.why {
+    background-image: url(img/why.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    justify-content: center;
+}
+
+.why__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.why__title {
+    margin-bottom: rem(25px);
+    font-weight: bold;
+    @include phones {
+        margin-bottom: rem(20px);
+    }
+}
+
+.why__subtitle {
+    width: rem(502px);
+    text-align: center;
+    margin-bottom: rem(57px);
+    @include phones {
+        margin-bottom: rem(53px);
+    }
+}
+
+.why__features__list {
+    display: flex;
+    justify-content: space-between;
+    @include phones {
+        flex-direction: column;
+    }
+}
+
+.why__item {
+    width: rem(249px);
+    text-align: center;
+    @include phones {
+        display: flex;
+        width: 100%;
+        margin-bottom: rem(40px);
+        text-align: left;
+        align-items: center;
+    }
+}
+
+.why__picture {
+    justify-content: center;
+    display: flex;
+    margin-bottom: rem(35px);
+    @include phones {
+        margin-bottom: 0;
+        margin-right: rem(14px);
+    }
+}
+
+.picture__border {
+    width: rem(125px);
+}
+
+.picture__shadow {
+    background-color: #f2f5f4;
+    border-radius: 50%;
+    height: rem(125px);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.why__item__title {
+    font-size: rem(27px);
+    font-weight: bold;
+    margin-bottom: rem(25px);
+}
+
+.why__item__text {
+    color: #666666;
+    font-size: rem(18px);
+}
+
+.circles {
+    margin-top: rem(55px);
+    @include phones {
+        display: none;
+    }
+}
+
+.why__item__content {
+    @include phones {
+        width: rem(300px)
+    }
+}

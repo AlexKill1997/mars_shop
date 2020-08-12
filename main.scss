@@ -1,0 +1,80 @@
+@import "css/blocks/media.scss";
+html,
+body {
+    height: 100%;
+    font-family: 'Alegreya Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    @include tablets {
+        font-size: 15px;
+    }
+    @include phones {
+        font-size: 14px;
+    }
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.maincontent {
+    height: 100%;
+    transition: transform 1s;
+}
+
+.container {
+    margin: 0 auto;
+    position: relative;
+    width: 95%;
+    max-width: 940px;
+}
+
+.logo {
+    width: rem(53px);
+    height: rem(50px);
+}
+
+h1 {
+    font-size: rem(48px);
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: rem(22px);
+}
+
+p {
+    color: #666666;
+}
+
+a {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+@import "css/blocks/color.scss";
+@import "css/blocks/order";
+@import "css/blocks/btn";
+@import "css/blocks/header";
+@import "css/blocks/nav";
+@import "css/blocks/promo";
+@import "css/blocks/mixin";
+@import "css/blocks/reviews";
+@import "css/blocks/fixed-menu";
+@import "css/blocks/why.scss";
+@import "css/blocks/hamburger.scss";
+@import "css/blocks/svg.scss";
+@import "css/blocks/bar.scss";
+@import "css/blocks/card.scss";
+@import "css/blocks/footer.scss";

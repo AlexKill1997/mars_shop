@@ -1,0 +1,32 @@
+.promo__btn,
+.order__btn__submit {
+    border-radius: 78px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: rem(24px) rem(36px);
+    margin-bottom: rem(90px);
+    height: rem(58px);
+    font-size: rem(19px);
+    font-weight: 800;
+}
+
+.promo__button {
+    margin-bottom: rem(50px);
+}
+
+.promo__btn {
+    background-color: white;
+    color: $green;
+}
+
+.order__btn__submit {
+    background-color: $green;
+    color: white;
+    margin-right: rem(29px);
+}
+
+.order__btn__clear {
+    font-size: rem(18px);
+    text-decoration: none;
+    color: black;
+}

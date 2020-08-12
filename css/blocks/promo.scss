@@ -1,0 +1,47 @@
+.promo {
+    background-image: url(img/first-screen.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    justify-content: center;
+    @include tablets {
+        align-items: center;
+    }
+}
+
+.promo__title {
+    line-height: 1.25;
+    margin-bottom: rem(23px);
+}
+
+.promo__subtitle {
+    margin-bottom: rem(56px);
+}
+
+.promo__content {
+    color: white;
+    width: rem(377px);
+    @include tablets {
+        text-align: center;
+        width: auto;
+    }
+}
+
+.feature__text {
+    color: white;
+    padding-left: rem(10px);
+}
+
+.promo__features__list {
+    display: flex;
+    width: rem(465px);
+    @include tablets {
+        display: none;
+    }
+}
+
+.feature__item {
+    display: flex;
+    align-items: center;
+    padding-right: rem(46px);
+}

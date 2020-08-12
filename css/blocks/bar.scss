@@ -1,0 +1,114 @@
+.bar {
+    justify-content: center;
+    background-color: #f8faf9;
+}
+
+.bar__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar__content {
+    width: rem(344px);
+}
+
+.bar__content__title {
+    font-size: rem(36px);
+    margin-bottom: rem(12px);
+}
+
+.bar__content__text {
+    margin-bottom: rem(35px);
+}
+
+.bar__composition {
+    margin-bottom: rem(37px);
+    @include tablets {
+        display: none;
+    }
+}
+
+.bar__price {
+    margin-right: rem(35px);
+}
+
+.bar__content__bottom {
+    display: flex;
+    align-items: center;
+    margin-bottom: rem(30px);
+}
+
+.bar__price {
+    font-size: rem(40px);
+}
+
+.bar__content__add {
+    display: flex;
+    margin-bottom: rem(30px);
+}
+
+.bar__content__info {
+    margin-right: rem(55px);
+}
+
+.bar__img {
+    width: rem(380px);
+    height: rem(384px);
+    box-sizing: content-box;
+}
+
+.picture {
+    max-width: 100%;
+    display: block;
+}
+
+.slider {
+    display: flex;
+    width: rem(830px);
+    overflow: hidden;
+}
+
+.slider__items {
+    display: flex;
+    position: relative;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: rem(830px);
+    box-sizing: border-box;
+    @include tablets {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.overlay__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.overlay {
+    position: absolute;
+    background-color: white;
+    opacity: 0.95;
+    width: rem(270px);
+    display: flex;
+    justify-content: center;
+}
+
+.overlay__list {
+    padding: rem(10px) rem(10px);
+}
+
+.overlay__item {
+    margin-bottom: rem(22px);
+}
+
+.overlay__item:last-child {
+    margin-bottom: 0;
+}
